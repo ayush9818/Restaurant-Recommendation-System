@@ -1,28 +1,25 @@
 # Restaurant-Recommendation-System
 
-
 ## Introduction
 
 This project aims to develop a robust Restaurant Recommendation System that serves a dual purpose. For customers, it provides personalized restaurant suggestions based on individual preferences and geographical proximity. For restaurant owners, it offers a data-driven approach to generating targeted advertisements to attract customers effectively, leveraging insights from user reviews.
 
-#### For Customers:
+### For Customers:
 The system utilizes a sophisticated recommendation engine to curate a list of restaurants tailored to a user's tastes and dining history. By considering factors such as past reviews, preferences, and location data, the system ensures that users receive the most relevant and appealing recommendations.
 
-#### For Restaurant Owners:
+### For Restaurant Owners:
 On the business front, restaurant owners benefit from an advanced data mining application that analyzes association rules within customer data. This facilitates the creation of impactful advertisements aimed at drawing in a crowd more likely to appreciate what the restaurant has to offer.
 
-#### Technical Approach:
+### Technical Approach:
 At the core of the recommendation engine is a hybrid model that combines the strengths of Collaborative Filtering and Content-Based Filtering. We use algorithms such as KNN, KNNWithMeans, and SVD for Collaborative Filtering and employ BERT embeddings and TF-IDF for Content-Based Filtering. The synergy of these techniques allows for a nuanced understanding of user preferences, leading to highly relevant recommendations.
 
-#### Project Scope:
+### Project Scope:
 The Restaurant Recommendation System is an educational project designed to demonstrate the capabilities of modern recommendation algorithms. It handles a substantial dataset of approximately a million entries sourced from the publicly available Yelp dataset on Kaggle, making it a project that not only educates but also scales to real-world application scenarios.
 
 Our mission with this project is to showcase how data-driven technologies can transform the dining experience for customers and the marketing efforts of restaurant owners.
 
-
-
 ## Table of Contents
-- Introduction
+- [Introduction](#introduction)
 - Installation
 - Usage
 - Features
@@ -34,6 +31,7 @@ Our mission with this project is to showcase how data-driven technologies can tr
 - Contributors
 - License
 
+
 ## Installation
 - Requirements (list any libraries or frameworks needed).
 - Step-by-step guide on setting up the project environment.
@@ -44,12 +42,34 @@ Our mission with this project is to showcase how data-driven technologies can tr
 - Example commands and outputs.
 
 ## Features
-- What features does your recommendation system offer?
-- Any unique selling point of your system.
+
+### For End-Users
+- **Personalized Recommendations**: The system utilizes user past behavior to recommend restaurants that match their taste and preferences.
+- **Proximity-Based Suggestions**: Recommendations are not only tailored to preferences but also to the proximity of the user, ensuring that suggested restaurants are within a reasonable distance.
+- **Diverse Cuisine Options**: By analyzing extensive data sets, the system offers a wide variety of cuisines, catering to different dietary needs and culinary tastes.
+- **User Review Insights**: Incorporates insights from user reviews using advanced NLP techniques, providing a more nuanced recommendation that takes into account the sentiment and context of user reviews.
+
+### For Restaurant Owners
+- **Advertisement Generation Tool**: Employs Association Rules Data Mining to help restaurant owners create targeted advertisements that resonate with likely customers.
+- **Customer Preference Analytics**: Provides analytics on customer preferences and dining habits, enabling restaurant owners to tailor their services or menus accordingly.
+- **Competitive Analysis**: Offers insights into competitors and market trends, allowing restaurant owners to position their advertisements more strategically.
+
 
 ## Project Structure
-- Explanation of the project's directory structure.
-- Description of the components of the project: CollaborativeFiltering, ContentBased, EDA, HybridModel.
+The project is organized into several directories, each serving a specific role in the recommendation system:
+
+### [CollaborativeFiltering](#https://github.com/ayush9818/Restaurant-Recommendation-System/tree/main/CollaborativeFiltering)
+- This directory contains the code and algorithms related to the Collaborative Filtering recommendation technique. It includes implementations of KNN, KNNWithMeans, and SVD algorithms.
+
+### [ContentBased](#)
+- Here, the Content-Based Filtering logic is implemented. It utilizes NLP techniques and machine learning models like BERT and TF-IDF to analyze and match user preferences with restaurant features.
+
+### [EDA](#)
+- Contains Jupyter notebooks and scripts used for Exploratory Data Analysis. This is where the data is explored and visualized to understand patterns and insights.
+
+### [HybridModel](#)
+- This directory integrates the Collaborative and Content-Based Filtering approaches to form a Hybrid Model, leveraging the strengths of both techniques for improved recommendation performance.
+
 
 ## Data Preparation
 - How the data is prepared for the recommendation system.
