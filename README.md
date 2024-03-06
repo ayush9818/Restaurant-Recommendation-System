@@ -22,7 +22,7 @@ Our mission with this project is to showcase how data-driven technologies can tr
 - [Introduction](#introduction)
 - [Features](#features)
 - [Project Structure](#projectstructure)
-- Data Preparation
+- [Data Preparation] (#datapreparation)
 - [Models](#models)
 - Evaluation
 - Contributors
@@ -88,6 +88,9 @@ The project is organized into several directories, each serving a specific role 
 
 ## Data Preparation
 - How the data is prepared for the recommendation system.
+1. From Kaggle Combine review.json and business.json
+2. Select the most reviews city-Philadelphia.
+3. Sample with users who reviewed more than 20 Yelp shop.
 - Mention of tf-idf and BERT in the context of data preparation.
 
 ## Models
