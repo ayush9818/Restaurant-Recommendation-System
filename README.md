@@ -58,16 +58,16 @@ Our mission with this project is to showcase how data-driven technologies can tr
 ## Project Structure
 The project is organized into several directories, each serving a specific role in the recommendation system:
 
-### [CollaborativeFiltering](#https://github.com/ayush9818/Restaurant-Recommendation-System/tree/main/CollaborativeFiltering)
+### [CollaborativeFiltering](https://github.com/ayush9818/Restaurant-Recommendation-System/tree/main/CollaborativeFiltering)
 - This directory contains the code and algorithms related to the Collaborative Filtering recommendation technique. It includes implementations of KNN, KNNWithMeans, and SVD algorithms.
 
-### [ContentBased](#)
+### [ContentBased](https://github.com/ayush9818/Restaurant-Recommendation-System/tree/main/ContentBased)
 - Here, the Content-Based Filtering logic is implemented. It utilizes NLP techniques and machine learning models like BERT and TF-IDF to analyze and match user preferences with restaurant features.
 
-### [EDA](#)
+### [EDA](https://github.com/ayush9818/Restaurant-Recommendation-System/tree/main/EDA)
 - Contains Jupyter notebooks and scripts used for Exploratory Data Analysis. This is where the data is explored and visualized to understand patterns and insights.
 
-### [HybridModel](#)
+### [HybridModel](https://github.com/ayush9818/Restaurant-Recommendation-System/tree/main/HybridModel)
 - This directory integrates the Collaborative and Content-Based Filtering approaches to form a Hybrid Model, leveraging the strengths of both techniques for improved recommendation performance.
 
 
