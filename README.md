@@ -43,33 +43,57 @@ Our mission with this project is to showcase how data-driven technologies can tr
 
 ## Features
 
-### For End-Users
+<details>
+<summary><b>For End-Users</b></summary>
+  
 - **Personalized Recommendations**: The system utilizes user past behavior to recommend restaurants that match their taste and preferences.
 - **Proximity-Based Suggestions**: Recommendations are not only tailored to preferences but also to the proximity of the user, ensuring that suggested restaurants are within a reasonable distance.
 - **Diverse Cuisine Options**: By analyzing extensive data sets, the system offers a wide variety of cuisines, catering to different dietary needs and culinary tastes.
 - **User Review Insights**: Incorporates insights from user reviews using advanced NLP techniques, providing a more nuanced recommendation that takes into account the sentiment and context of user reviews.
 
-### For Restaurant Owners
+</details>
+
+<details>
+<summary><b>For Restaurant Owners</b></summary>
+
 - **Advertisement Generation Tool**: Employs Association Rules Data Mining to help restaurant owners create targeted advertisements that resonate with likely customers.
 - **Customer Preference Analytics**: Provides analytics on customer preferences and dining habits, enabling restaurant owners to tailor their services or menus accordingly.
 - **Competitive Analysis**: Offers insights into competitors and market trends, allowing restaurant owners to position their advertisements more strategically.
 
+</details>
 
 ## Project Structure
+
 The project is organized into several directories, each serving a specific role in the recommendation system:
 
-### [CollaborativeFiltering](https://github.com/ayush9818/Restaurant-Recommendation-System/tree/main/CollaborativeFiltering)
+<details>
+<summary><b>CollaborativeFiltering</b></summary>
+
 - This directory contains the code and algorithms related to the Collaborative Filtering recommendation technique. It includes implementations of KNN, KNNWithMeans, and SVD algorithms.
 
-### [ContentBased](https://github.com/ayush9818/Restaurant-Recommendation-System/tree/main/ContentBased)
-- Here, the Content-Based Filtering logic is implemented. It utilizes NLP techniques and machine learning models like BERT and TF-IDF to analyze and match user preferences with restaurant features.
+</details>
 
-### [EDA](https://github.com/ayush9818/Restaurant-Recommendation-System/tree/main/EDA)
+<details>
+<summary><b>ContentBased</b></summary>
+  
+- Here, the Content-Based Filtering logic is implemented. It utilizes NLP techniques and machine learning models like BERT and TF-IDF to analyze and match user preferences with restaurant features.
+  
+</details>
+
+
+<details>
+<summary><b>EDA</b></summary>
+
 - Contains Jupyter notebooks and scripts used for Exploratory Data Analysis. This is where the data is explored and visualized to understand patterns and insights.
 
-### [HybridModel](https://github.com/ayush9818/Restaurant-Recommendation-System/tree/main/HybridModel)
+</details>
+
+<details>
+<summary><b>HybridModel</b></summary>
+  
 - This directory integrates the Collaborative and Content-Based Filtering approaches to form a Hybrid Model, leveraging the strengths of both techniques for improved recommendation performance.
 
+</details>
 
 ## Data Preparation
 - How the data is prepared for the recommendation system.
