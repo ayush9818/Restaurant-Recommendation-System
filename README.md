@@ -22,8 +22,8 @@ Our mission with this project is to showcase how data-driven technologies can tr
 - [Introduction](#introduction)
 - Installation
 - Usage
-- Features
-- Project Structure
+- [Features](#features)
+- [Project Structure](#projectstructure)
 - Data Preparation
 - Models
 - Evaluation
@@ -45,20 +45,23 @@ Our mission with this project is to showcase how data-driven technologies can tr
 
 <details>
 <summary><b>For End-Users</b></summary>
-  
+
+
 - **Personalized Recommendations**: The system utilizes user past behavior to recommend restaurants that match their taste and preferences.
 - **Proximity-Based Suggestions**: Recommendations are not only tailored to preferences but also to the proximity of the user, ensuring that suggested restaurants are within a reasonable distance.
 - **Diverse Cuisine Options**: By analyzing extensive data sets, the system offers a wide variety of cuisines, catering to different dietary needs and culinary tastes.
 - **User Review Insights**: Incorporates insights from user reviews using advanced NLP techniques, providing a more nuanced recommendation that takes into account the sentiment and context of user reviews.
 
+
 </details>
 
 <details>
 <summary><b>For Restaurant Owners</b></summary>
-
+  
 - **Advertisement Generation Tool**: Employs Association Rules Data Mining to help restaurant owners create targeted advertisements that resonate with likely customers.
 - **Customer Preference Analytics**: Provides analytics on customer preferences and dining habits, enabling restaurant owners to tailor their services or menus accordingly.
 - **Competitive Analysis**: Offers insights into competitors and market trends, allowing restaurant owners to position their advertisements more strategically.
+
 
 </details>
 
