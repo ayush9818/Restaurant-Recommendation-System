@@ -95,8 +95,18 @@ The project is organized into several directories, each serving a specific role 
 - Any tuning or optimization that was performed.
 
 ## Evaluation
-- How the recommendation system is evaluated.
-- Metrics used for evaluation.
+
+The Restaurant Recommendation System's performance is rigorously evaluated using a Hold-Out Test Dataset to ensure the robustness and accuracy of the recommendations provided.
+
+### Metrics
+For each user-item pair, the system predicts a rating and compares it with the ground truth (GT) rating. The evaluation metrics used are:
+
+- **Mean Squared Error (MSE)**: Measures the average of the squares of the errors, i.e., the average squared difference between the estimated values and the actual value.
+- **Mean Absolute Error (MAE)**: Represents the average absolute difference between the predicted ratings and the actual GT ratings.
+
+### Results Interpretation
+The effectiveness of the recommendation engine is inversely proportional to the RMSE values obtained during testing. Lower RMSE values indicate higher accuracy in the predictions, reflecting a more reliable and trustworthy system from a user's perspective. Our aim is to continually refine the model to minimize RMSE, thereby enhancing the quality of recommendations for the end-users.
+
 
 
 ## Contributors
@@ -106,6 +116,6 @@ The project is organized into several directories, each serving a specific role 
 - Gracie
 
 ## License
-- Summary of the license (e.g., MIT, already seen in the project structure).
-- Short explanation of what it permits.
+This project is made available under the MIT License. For more details, see the [LICENSE](https://github.com/ayush9818/Restaurant-Recommendation-System/blob/main/LICENSE) file in the repository.
+
 
