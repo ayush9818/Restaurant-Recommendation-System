@@ -23,7 +23,7 @@ Our mission with this project is to showcase how data-driven technologies can tr
 - [Features](#features)
 - [Project Structure](#projectstructure)
 - Data Preparation
-- Models
+- [Models](#models)
 - Evaluation
 - Contributors
 - License
@@ -92,7 +92,15 @@ The project is organized into several directories, each serving a specific role 
 
 ## Models
 - Explanation of the models used in Collaborative Filtering, Content-Based filtering, and the Hybrid model.
+1. User-Based Collaborative Filtering: This model recommends items by identifying users with similar preferences and suggesting items those similar users have liked.
+2. Item-Based Collaborative Filtering: This model suggests new items based on a user's past preferences, focusing on the similarity between items themselves rather than user similarity.
 - Any tuning or optimization that was performed.
+
+The **KNNBasic() algorithm** serves as a foundational model supporting both user-based and item-based methods. Key parameters of this algorithm include:
+
+- k: Denotes the count of nearest neighbors the model considers in its prediction-making process.
+
+- min_k: Specifies the minimum required count of neighbors for the algorithm to proceed with a recommendation, ensuring a robust and reliable prediction.
 
 ## Evaluation
 
@@ -113,7 +121,7 @@ The effectiveness of the recommendation engine is inversely proportional to the 
 - Ayush Agarwal
 - Kevin Li
 - Yumin Zhang
-- Gracie
+- Grace Xie
 
 ## License
 This project is made available under the MIT License. For more details, see the [LICENSE](https://github.com/ayush9818/Restaurant-Recommendation-System/blob/main/LICENSE) file in the repository.
