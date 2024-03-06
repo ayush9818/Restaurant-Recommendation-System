@@ -20,26 +20,14 @@ Our mission with this project is to showcase how data-driven technologies can tr
 
 ## Table of Contents
 - [Introduction](#introduction)
-- Installation
-- Usage
 - [Features](#features)
 - [Project Structure](#projectstructure)
 - Data Preparation
 - Models
 - Evaluation
-- Troubleshooting
 - Contributors
 - License
 
-
-## Installation
-- Requirements (list any libraries or frameworks needed).
-- Step-by-step guide on setting up the project environment.
-- Any environment variables or keys that need to be set.
-
-## Usage
-- How to run the project.
-- Example commands and outputs.
 
 ## Features
 
@@ -110,13 +98,12 @@ The project is organized into several directories, each serving a specific role 
 - How the recommendation system is evaluated.
 - Metrics used for evaluation.
 
-## Troubleshooting
-- Common issues one might encounter.
-- FAQs or troubleshooting tips.
 
 ## Contributors
-- Instructions on how one can contribute to the project.
-- Acknowledgements of current contributors.
+- Ayush Agarwal
+- Kevin Li
+- Yumin Zhang
+- Gracie
 
 ## License
 - Summary of the license (e.g., MIT, already seen in the project structure).
