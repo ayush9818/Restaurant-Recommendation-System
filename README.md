@@ -22,7 +22,7 @@ Our mission with this project is to showcase how data-driven technologies can tr
 - [Introduction](#introduction)
 - [Features](#features)
 - [Project Structure](#projectstructure)
-- [Data Preparation] (#datapreparation)
+- [Data Preparation](#datapreparation)
 - [Models](#models)
 - Evaluation
 - Contributors
@@ -89,7 +89,6 @@ The project is organized into several directories, each serving a specific role 
 ## Data Preparation
 
 <details>
-<summary><b>For End-Users</b></summary>
   
 - How the data is prepared for the recommendation system.
 1. From Kaggle Combine review.json and business.json
