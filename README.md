@@ -24,9 +24,9 @@ Our mission with this project is to showcase how data-driven technologies can tr
 - [Project Structure](#projectstructure)
 - [Data Preparation](#data-preparation)
 - [Models](#models)
-- Evaluation
-- Contributors
-- License
+- [Evaluation](#evaluation)
+- [Contributors](#contributors)
+- [License](#license)
 
 
 ## Features
